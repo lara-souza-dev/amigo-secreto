@@ -2,6 +2,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: aquamarine;
+    padding: 10px;
 }
 
 h1 {
@@ -36,12 +37,14 @@ div.principal {
 
 a {
   padding: 10px 20px;
-  margin-bottom: 30px;
   background-color:  rgb(25, 90, 101);
   color: #fff;
   text-decoration: none;
   border-radius: 20px;
-  display: inline-block;
+  display: block;
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
 }
 
 .botao {
@@ -157,4 +160,3 @@ footer {
 
 /* se quiser giros mais lentos/rapidos por estrela, troque via nth-child:
    exemplo: .star:nth-child(2)::before { animation-duration: 2.2s; } */
-
