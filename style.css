@@ -28,7 +28,8 @@ h3 {
 div.principal {
     background-color: white;
     margin: 20px;
-    padding: 5px 20px;
+    padding: 10px;
+    padding-right: 50px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(10, 0, 0, 0.085);
 }
@@ -156,3 +157,4 @@ footer {
 
 /* se quiser giros mais lentos/rapidos por estrela, troque via nth-child:
    exemplo: .star:nth-child(2)::before { animation-duration: 2.2s; } */
+
